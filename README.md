@@ -1,1 +1,1 @@
-# synchronization..github.io
+# synchronization.github.io
