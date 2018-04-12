@@ -640,8 +640,12 @@
     <p class="c3 c11"><span class="c2"></span></p>
     <p class="c3 c11"><span class="c2"></span></p>
     <p class="c3"><span class="c2">Appendix: How do we calculate &ldquo;average log steps&rdquo;?</span></p>
-    <p class="c3"><span class="c2">average log steps = EXP(SUM(LN(#DAILY_STEPS / 10000)) / (NUMBER_OF_DAYS))*10000</span></p>
-    <p class="c10"><span class="c2">In which the SUM is calculated over the n-1 best days and NUMBER_OF_DAYS=n-1</span></p>
+    <p class="c3"><span class="c2">average log steps = EXP(SUM(LN(#DAILY_STEPS / goal)) / (NUMBER_OF_DAYS))*goal</span></p>
+    <p class="c10"><span class="c2">In which the SUM is calculated over the n-3 best days and NUMBER_OF_DAYS=n-3</span></p>
+    <p class="c6"><span class="c2"></span></p>
+    <p class="c3"><span class="c2">Appendix: How do we calculate the prize?</span></p>
+    <p class="c3"><span class="c2">extra prize = (average steps * goal) / (total of average steps * goal for every participant)</span></p>
+    <p class="c10"><span class="c2">After taking the three vacation days into account</span></p>
     <p class="c6"><span class="c2"></span></p>
     <p class="c10"><span class="c2">We encourage you to make a copy of the spreadsheet and play with the formula to have a better sense of how it works.</span></p>
     <p class="c6"><span class="c0"></span></p>
